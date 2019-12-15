@@ -28,10 +28,10 @@ The gifs below show the generated images from the model from the first epoch unt
 ### The Loss (MNIST)
 Here are the generator and discriminator loss on the MNIST dataset experiment. It shows the loss for the train and test set.
 
-#### Generator Loss
+### Generator Loss
 ![](screenshots/MNIST-generator-loss.png)
 
-#### Discriminator Loss
+### Discriminator Loss
 ![](screenshots/MNIST-discriminator-loss.png)
 
 ### Fashion MNIST
@@ -40,8 +40,8 @@ Here are the generator and discriminator loss on the MNIST dataset experiment. I
 ### The Loss (Fashion MNIST)
 Here are the generator and discriminator loss on the Fashion MNIST dataset experiment. It shows the loss for the train and test set.
 
-#### Generator Loss
+### Generator Loss
 ![](screenshots/FMNIST-generator-loss.png)
 
-#### Discriminator Loss
+### Discriminator Loss
 ![](screenshots/FMNIST-discriminator-loss.png)
