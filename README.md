@@ -14,9 +14,12 @@ I've included my generator and discriminator model which I've trained before in 
 * `generator_acgan_fashion_mnist_r`, it's the generator model for the Fashion MNIST experiment.
 * `discriminator_acgan_fashion_mnist_r`. it's the discriminator model for the Fashion MNIST experiment.
 
-To test the model, run this part of the code:\
+The models is too big to upload on GitHub, so I uploaded it on Google Drive, here's the link:
+* `generator_acgan_mnist_r` & `discriminator_acgan_mnist_r` https://drive.google.com/open?id=1_6rsdqGpmzlwhrVptK4f7_-gzGfL7mgx
+& `generator_acgan_fashion_mnist_r` & `discriminator_acgan_fashion_mnist_r` https://drive.google.com/open?id=1RPIkHtN2vKt_DZBiNnr4ONSQQRDiZ13R
+
+You can load the model by running this part of the code:\
 ...\
-It'll load the saved model and test it.
 
 ## Experiment Results
 The model was run for 50 epochs for both the MNIST and Fashion MNIST Dataset.\
