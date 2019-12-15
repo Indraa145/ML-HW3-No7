@@ -18,7 +18,7 @@ The models is too big to upload on GitHub, so I uploaded it on Google Drive, her
 * `generator_acgan_mnist_r` & `discriminator_acgan_mnist_r` https://drive.google.com/open?id=1_6rsdqGpmzlwhrVptK4f7_-gzGfL7mgx
 * `generator_acgan_fashion_mnist_r` & `discriminator_acgan_fashion_mnist_r` https://drive.google.com/open?id=1RPIkHtN2vKt_DZBiNnr4ONSQQRDiZ13R
 
-You can load the model by running this part of the code:\
+You can load the model by running this part of the code:
 ```
 library(keras)
 library(progress)
