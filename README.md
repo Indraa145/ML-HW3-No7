@@ -16,10 +16,18 @@ I've included my generator and discriminator model which I've trained before in 
 
 The models is too big to upload on GitHub, so I uploaded it on Google Drive, here's the link:
 * `generator_acgan_mnist_r` & `discriminator_acgan_mnist_r` https://drive.google.com/open?id=1_6rsdqGpmzlwhrVptK4f7_-gzGfL7mgx
-& `generator_acgan_fashion_mnist_r` & `discriminator_acgan_fashion_mnist_r` https://drive.google.com/open?id=1RPIkHtN2vKt_DZBiNnr4ONSQQRDiZ13R
+* `generator_acgan_fashion_mnist_r` & `discriminator_acgan_fashion_mnist_r` https://drive.google.com/open?id=1RPIkHtN2vKt_DZBiNnr4ONSQQRDiZ13R
 
 You can load the model by running this part of the code:\
-...\
+```
+library(keras)
+library(progress)
+library(abind)
+k_set_image_data_format('channels_first')
+
+load_generator <- load_model_hdf5("generator_acgan_mnist_r.h5")
+load_discriminator <- load_model_hdf5("discriminator_acgan_mnist_r.h5")
+```
 
 ## Experiment Results
 The model was run for 50 epochs for both the MNIST and Fashion MNIST Dataset.\
@@ -48,3 +56,11 @@ Here are the generator and discriminator loss on the Fashion MNIST dataset exper
 
 ### Discriminator Loss
 ![](screenshots/FMNIST-discriminator-loss.png)
+
+### Summary 
+Here are the summaries of each model\
+
+### Generator (MNIST)
+### Discriminator (MNIST)
+### Generator (Fashion MNIST)
+### Discriminator (Fashion MNIST)
