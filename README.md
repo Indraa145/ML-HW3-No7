@@ -19,7 +19,7 @@ To test the model, run this part of the code:\
 It'll load the saved model and test it.
 
 ## Experiment Results
-The model was run for 50 epochs for both the MNSIT and Fashion MNIST Dataset.\
+The model was run for 50 epochs for both the MNIST and Fashion MNIST Dataset.\
 The gifs below show the generated images from the model from the first epoch until the 50th epoch.
 
 ### MNIST
