@@ -61,13 +61,13 @@ Here are the generator and discriminator loss on the Fashion MNIST dataset exper
 Here are the summary of each model\
 
 ### Generator (MNIST)
-![](screenshots/generator_mnist_summary.gif)
+![](screenshots/generator_mnist_summary.PNG)
 
 ### Discriminator (MNIST)
-![](screenshots/discriminator_mnist_summary.gif)
+![](screenshots/discriminator_mnist_summary.PNG)
 
 ### Generator (Fashion MNIST)
-![](screenshots/generator_fmnist_summary.gif)
+![](screenshots/generator_fmnist_summary.PNG)
 
 ### Discriminator (Fashion MNIST)
-![](screenshots/discriminator_fmnist_summary.gif)
+![](screenshots/discriminator_fmnist_summary.PNG)
